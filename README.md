@@ -53,6 +53,7 @@ GUI clients to connect to your proxy using JSON files, links, or QR codes.
 *   [v2rayN](https://github.com/2dust/v2rayN) - A popular, lightweight Windows client supporting Xray, sing-box, and Trojan.
 *   [Amnezia VPN Client](https://github.com/amnezia-vpn/amnezia-vpn-client) - An open-source desktop app that automatically deploys OpenVPN, WireGuard, ShadowSocks, and AmneziaWG on your own server.
 *   [Mihomo Party](https://github.com/mihomo-party-org/mihomo-party) - A clean, modern desktop client built on top of the Mihomo (Clash.Meta) core.
+*   [Zephyron](https://github.com/NineUPFLOW/Zephyron) - Windows client on a sing-box core (VLESS, VMess, Trojan, Shadowsocks, Hysteria2, TUIC, AnyTLS, WireGuard, AmneziaWG, SOCKS/HTTP) that can also run DPI desync, so VPN and bypass coexist per route.
 
 ### Mobile (Android, iOS)
 
@@ -71,6 +72,7 @@ These tools run locally on your machine and alter TCP/IP packets on the fly. The
 *   [GoodbyeDPI](https://github.com/ValdikSS/GoodbyeDPI) - The classic, open-source DPI bypass tool for Windows. Runs as a background service.
 *   [SpoofDPI](https://github.com/xvzc/SpoofDPI) - A fast, Go-based bypass tool that works great on macOS, Linux, and Windows.
 *   [byedpi](https://github.com/hufrea/byedpi) - A local SOCKS proxy that breaks HTTP/HTTPS packets into fragments to slide past DPI.
+*   [Zephyron](https://github.com/NineUPFLOW/Zephyron) - Windows GUI that runs Zapret/winws2 desync and a sing-box tunnel side by side, routing each service (or part of one) direct, desync or VPN. Issues fakeip only to domains ruled `proxy`, so desync traffic never enters the tunnel. Free Cloudflare WARP and a Telegram Desktop proxy included; no subscription required. MIT.
 
 ---
 
